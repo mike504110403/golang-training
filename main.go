@@ -16,7 +16,9 @@ func main() {
 	//setVar()            // 設定變數
 	//fmt.Scanln(&intVar) // 放到變數中 &變數名稱: 取得變數的指標
 	//printOutVar(intVar) // print變數 (可依照傳入參數做額外操作)
-	PrintIo()
+	//PrintIo()
+	fmt.Printf("計算結果為:%d", (MutiAdd(PrintCalculateText())))
+
 }
 
 // 變數 這邊是全域
