@@ -7,7 +7,6 @@ import (
 
 // 兩參數相加
 func Add(par1, par2 int) int {
-
 	return typeAssert(par1) + typeAssert(par2)
 }
 
@@ -22,7 +21,7 @@ func MutiAdd(pars []int) int {
 	return result
 }
 
-// 型別斷言
+// 型別斷言 todo: 轉float 處理小數點
 func typeAssert(par interface{}) int {
 	switch v := par.(type) {
 	case int:

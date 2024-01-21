@@ -18,6 +18,7 @@ func main() {
 	//printOutVar(intVar) // print變數 (可依照傳入參數做額外操作)
 	//PrintIo()
 	fmt.Printf("計算結果為:%d", (MutiAdd(PrintCalculateText())))
+	fmt.Scanln()
 
 }
 
