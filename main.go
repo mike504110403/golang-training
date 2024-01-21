@@ -17,8 +17,16 @@ func main() {
 	//fmt.Scanln(&intVar) // 放到變數中 &變數名稱: 取得變數的指標
 	//printOutVar(intVar) // print變數 (可依照傳入參數做額外操作)
 	//PrintIo()
-	fmt.Printf("計算結果為:%d", (MutiAdd(PrintCalculateText())))
-	fmt.Scanln()
+
+	// 計算器
+	//fmt.Printf("計算結果為:%d", (MutiAdd(PrintCalculateText())))
+	//fmt.Scanln()
+
+	// 物件使用
+	person := *SetNewPerson()
+	fmt.Printf("Name:%s Height: %d\n", person.name, person.height)
+	group := *SetGroupPerson()
+	fmt.Printf("Group Name:%s Name:%s Height: %d\n", group.groupName, group.Person.name, group.Person.height)
 
 }
 
