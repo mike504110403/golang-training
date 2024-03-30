@@ -1,4 +1,4 @@
-package main
+package demo
 
 // 創建一個typw struct -> 類似於OOP的class
 type Person struct {

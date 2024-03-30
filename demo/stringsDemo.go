@@ -1,4 +1,4 @@
-package main
+package demo
 
 import (
 	"strings"
@@ -7,5 +7,4 @@ import (
 func stringDemo() interface{} {
 	command := "read"
 	return strings.Contains(command, "read")
-
 }
