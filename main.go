@@ -23,11 +23,21 @@ func main() {
 	//fmt.Scanln()
 
 	// 物件使用
-	person := *SetNewPerson()
-	fmt.Printf("Name:%s Height: %d\n", person.name, person.height)
-	group := *SetGroupPerson()
-	fmt.Printf("Group Name:%s Name:%s Height: %d\n", group.groupName, group.Person.name, group.Person.height)
+	//person := *SetNewPerson()
+	//fmt.Printf("Name:%s Height: %d\n", person.name, person.height)
+	//group := *SetGroupPerson()
+	//fmt.Printf("Group Name:%s Name:%s Height: %d\n", group.groupName, group.Person.name, group.Person.height)
 
+	// 通道使用
+	//ChannelSend()
+	//ChannelRecieve()
+
+	// 指標
+	//Pointer()
+	//a := 1
+	//b := 2
+	//Swap(&a, &b)
+	//println(a, b)
 }
 
 // 變數 這邊是全域

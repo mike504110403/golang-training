@@ -55,8 +55,8 @@ func trread_luck控制() interface{} {
 	}
 	fmt.Println("We have $1500")
 	wg.Add(2)
-	go withdraw() // first withdraw
-	go withdraw() // second withdraw
+	go withdraw(100) // first withdraw
+	go withdraw(20)  // second withdraw
 	wg.Wait()
 	return resp
 }
