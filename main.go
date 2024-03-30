@@ -38,6 +38,7 @@ func main() {
 	//b := 2
 	//Swap(&a, &b)
 	//println(a, b)
+	fmt.Println("Container git test!")
 }
 
 // 變數 這邊是全域
