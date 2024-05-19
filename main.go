@@ -2,6 +2,7 @@ package main // 可執行程式封包要用main
 
 import (
 	"fmt" // 載入內建封包 輸出輸入用
+	"golang-training/demo"
 	"reflect"
 )
 
@@ -38,7 +39,9 @@ func main() {
 	//b := 2
 	//Swap(&a, &b)
 	//println(a, b)
-	fmt.Println("Container git test!")
+	// fmt.Println("Container git test!")
+	//demo.TickerDemo()
+	demo.Looprange()
 }
 
 // 變數 這邊是全域
