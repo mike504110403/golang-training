@@ -2,7 +2,6 @@ package main // 可執行程式封包要用main
 
 import (
 	"fmt" // 載入內建封包 輸出輸入用
-	"golang-training/demo"
 	"reflect"
 )
 
@@ -41,7 +40,16 @@ func main() {
 	//println(a, b)
 	// fmt.Println("Container git test!")
 	//demo.TickerDemo()
-	demo.Looprange()
+	//demo.Looprange()
+	//demo.TestCallBack()
+	//person := demo.Person{Name: "Jason"}
+	//person.PersonSayHi()
+	//fmt.Printf("Height berfore set: %d\n", person.GetHeight())
+	//person.SetHeight(178)
+	// fmt.Printf("Height after set: %d\n", person.GetHeight())
+	//engine := new(demo.Bus)
+	//engine.Working()
+
 }
 
 // 變數 這邊是全域
